@@ -1,0 +1,33 @@
+body {
+    background: rgb(0, 110, 255);
+    font: normal 20pt google sans; /* em 20pt, é "pt" mesmo! */
+}                                   /* não é "px", não! */
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section { 
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    /* Esse box-shadow deixa o campo e qualquer coisa muito
+    bonita!! Dar sombra deixa as coisas elegantes!!! */
+    color: black;
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer { /* é o rodapé da página */
+    color: white;
+    text-align: center;
+    font-style: google sans;
+
+}

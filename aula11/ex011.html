@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Nacionalidade</title>
+</head>
+<body>
+    <h1>Me diz, de onde você vem?</h1>
+    Digite sua nacionalidade: Eu sou <input type="text" id="text">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">  // Lembra que é importante criar divs!
+
+    </div> 
+
+    <script>
+        function verificar() {
+            var txti = document.querySelector('input#text')
+            var res = document.getElementById('res')
+            res.innerHTML = `<p>Olha! Então quer dizer que você é <strong>${txti.value}!</strong></p>`
+            if (txti.value == 'brasileiro') {
+                res.innerHTML += `<p>Você é de casa, mano. Bem-vindo de volta, meu cria!</p>`
+            } else {
+                res.innerHTML += `<p>Incrível. Seja muito nem-vindo ao Brasil!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
