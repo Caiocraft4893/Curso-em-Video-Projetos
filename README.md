@@ -2,7 +2,7 @@
   Curso em Vídeo Projetos
 </h1>
 
-Todos os projetos que fiz do Curso em Vídeo em um só lugar!
+Todos os projetos que fiz com o Curso em Vídeo em um só lugar!
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
